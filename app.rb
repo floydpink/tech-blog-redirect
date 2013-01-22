@@ -72,8 +72,8 @@ end
 # http://technology.harimenon.com/blog/2013/01/18/migrated-this-blog-to-octopress/
 # =>
 # http://www.harimenon.com/blog/2013/01/18/migrated-this-blog-to-octopress/
-get '/blog/:year/:month/:day/:article' do |year,month,day,article|
-  redirect "#{ROOT}/blog/#{year}/#{month}/#{day}/#{article}", 301
+get '/blog/:article' do |article|
+  redirect "#{ROOT}/blog/#{article}", 301
 end
 
 
