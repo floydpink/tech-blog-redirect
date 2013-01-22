@@ -69,6 +69,14 @@ get '/:year_:month_:day_archive.html' do
 end
 
 
+# http://technology.harimenon.com/blog/2013/01/18/migrated-this-blog-to-octopress/
+# =>
+# http://www.harimenon.com/blog/2013/01/18/migrated-this-blog-to-octopress/
+get '/blog/:year/:month/:day/:article' do |year,month,day,article|
+  redirect "#{ROOT}/blog/#{year}/#{month}/#{day}/#{article}", 301
+end
+
+
 # technology.harimenon.com -> www.harimenon.com/blog/categories/technical/
 get '/' do
   redirect "#{ROOT}/blog/categories/technical/", 301
