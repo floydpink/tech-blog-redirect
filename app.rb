@@ -17,7 +17,7 @@ get '/2012/12/aop-for-logging-in-net.html' do
   redirect "#{ROOT}/blog/2012/12/16/aop-for-logging-in-net/", 301
 end
 get '/2012/12/lzwCompress.js.html' do
-  redirect "#{ROOT}/blog/2012/12/06/lzwCompress.js/", 301
+  redirect "#{ROOT}/blog/2012/12/07/lzwCompress.js/", 301
 end
 get '/2012/12/useful-git-commands.html' do
   redirect "#{ROOT}/blog/2012/12/06/useful-git-commands/", 301
@@ -26,7 +26,7 @@ get '/2012/11/json-minification.html' do
   redirect "#{ROOT}/blog/2012/11/09/json-minification/", 301
 end
 get '/2012/09/convert-all-jpgs-in-folder-to-pdfs-with.html' do
-  redirect "#{ROOT}/blog/2012/09/04/convert-all-jpgs-in-folder-to-pdfs-with/", 301
+  redirect "#{ROOT}/blog/2012/09/05/convert-all-jpgs-in-folder-to-pdfs-with/", 301
 end
 get '/2012/05/creating-dynamic-types-in-net.html' do
   redirect "#{ROOT}/blog/2012/05/24/creating-dynamic-types-in-net/", 301
